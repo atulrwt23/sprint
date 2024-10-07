@@ -1,0 +1,32 @@
+6 stack_cap 
+6 stack_location
+7 stack_location element
+
+op:5 counter stack_cap push
+6 pop
+2 element one  element
+7 element element_h
+4 stack_cap zero stop
+pop_op:4 pop counter2 stop
+7 zero element_h:0
+2 element_h one element_h
+1 counter2 one counter2
+3 pop_op
+
+
+
+push:6 element:0
+1 one element element
+1 counter one counter
+3 op
+
+
+stack_cap:0
+counter:0
+stack_location:0
+one:1
+zero:0
+pop_cap:0
+pop:0
+counter2:0
+stop:9
