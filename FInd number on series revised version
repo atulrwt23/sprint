@@ -1,0 +1,17 @@
+3 start
+first_element:37
+length:5
+target:5
+result:0
+start:7 first_element address
+start1:4 address:0 target yes
+1 address one address
+1 count one count
+check:5 count length start1 
+stop:9
+yes:1 result one result 
+3 stop
+count:0
+one:1
+zero:0
+3 4 5 62 2
