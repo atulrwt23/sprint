@@ -1,0 +1,12 @@
+3 5 num:625 ans:0
+7 num n
+check:5 n c stop
+2 n c n
+1 c two c
+1 ans one ans
+3 check
+n:0
+c:1
+two:2
+one:1
+stop:9
