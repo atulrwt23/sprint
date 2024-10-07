@@ -1,0 +1,26 @@
+3 5 number:100
+result:0
+
+7 number reminder
+check:5 reminder ten check_for_quotient
+2 reminder ten reminder
+1 quotient one quotient
+3 check
+
+
+check_for_quotient:4 quotient zero answer
+1 result reminder result
+7 quotient reminder
+7 zero quotient
+3 check
+
+
+answer:1 result reminder
+result
+9
+
+zero:0
+reminder:0
+quotient:0
+one:1
+ten:10
