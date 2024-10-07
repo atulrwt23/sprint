@@ -1,0 +1,28 @@
+3 5 number:-123
+result:0
+
+7 number reminder
+5 reminder zero make_positive
+check:5 reminder ten check_for_quotient
+2 reminder ten reminder
+1 quotient one quotient
+3 check
+
+
+check_for_quotient:4 quotient zero answer
+1 result reminder result
+7 quotient reminder
+7 zero quotient
+3 check
+
+
+answer:1 result reminder
+result
+9
+make_positive:2 zero reminder reminder
+3 check
+zero:0
+reminder:0
+quotient:0
+one:1
+ten:10
