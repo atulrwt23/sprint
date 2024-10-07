@@ -1,26 +1,28 @@
 3 7 
-sequence_location:54
-sequence_length:2
+sequence_location:59
+sequence_length:0
 cycle_location:65
-cycle_length:9
+cycle_length:7
 7 sequence_location sequence_element
 7 cycle_location cycle_element
 
 start:5 cycle_length counter stop
-
 5 sequence_length counter_2 op
 1 counter one counter 
-7 sequence_element:0 cycle_element:0
-1 cycle_element one cycle_element
 1 counter_2 one counter_2
+7 sequence_element:0 cycle_element:0
+
+1 cycle_element one cycle_element
 1 sequence_element one sequence_element
 
 3 start
-op:7 sequence_location sequence_element
+op:4 zero sequence_length stop
+7 sequence_location sequence_element
 7 one counter_2
 3 start
 stop:9
 one:1
 counter:1
 counter_2:1
-2 3
+zero:0
+2 3 4 5 6
