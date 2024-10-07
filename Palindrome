@@ -1,0 +1,19 @@
+3 start
+num:545
+rem:0
+quo:0
+c1:0
+ten:10
+one:1
+zero:0
+var:0
+rev:0
+start:7 num rem
+5 rem ten yes
+2 rem ten rem
+1 quo one quo
+3 start
+yes:1 var rev var
+1 c1 one c1
+5 c1 ten yes
+
