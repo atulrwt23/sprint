@@ -1,0 +1,189 @@
+3 start
+Programme_start_position:320
+add:1
+sub:2
+jump:3
+jump_if_equal:4
+jump_if_less:5
+copy:7
+halt:9
+one:1
+loc:0
+help:0
+two:2
+three:3
+four:4
+copy_from:0
+copy_to:0
+jump_to_take:0
+jump_to_take_less:0
+start:7 
+Programme_start_position
+address_of_address
+
+7 Programme_start_position loc
+real:7 address_of_address:0 help
+
+
+
+check_for_halt:4 help halt halt 
+
+
+check_for_jump:4 help jump jump_help
+
+check_for_copy:4 help copy lets_copy
+
+check_for_add:4 help add lets_add
+
+check_for_sub:4 help sub lets_sub
+
+
+check_for_jump_if_equal:4 help jump_if_equal
+lets_jump_if_equal
+
+check_for_jump_if_less:4 help jump_if_less lets_jump_if_less
+
+
+
+jump_help:1 address_of_address one steps
+7  Programme_start_position address_of_address
+1 address_of_address steps:0 address_of_address
+
+2 address_of_address one address_of_address 
+
+3 real
+
+lets_copy:1 address_of_address one copy_f
+1 address_of_address two copy_t
+1  copy_t:0 Programme_start_position copy_to
+1 copy_f:0 Programme_start_position copy_from
+2 copy_to one real_to
+2 copy_from one real_from
+7 real_from:0 real_to:0
+1 address_of_address three address_of_address
+3 real 
+
+lets_add:1 address_of_address one add_first
+1 address_of_address two add_second
+1 address_of_address three
+copy_here
+
+1 add_first:0 Programme_start_position add_first
+1 add_second:0 Programme_start_position add_second
+1 copy_here:0 Programme_start_position copy_here
+
+
+2 add_first one add_first
+2 add_second one add_second
+2 copy_here one copy_here
+7 add_first add_first_here 
+7 add_second add_second_here
+7 copy_here copy_here_really
+1 add_first_here:0 add_second_here:0 copy_here_really:0
+1 address_of_address four address_of_address
+3 real
+
+
+lets_sub:1 address_of_address one sub_first
+1 address_of_address two sub_second
+1 address_of_address three
+copy_here_sub
+
+1 sub_first:0 Programme_start_position sub_first
+1 sub_second:0 Programme_start_position sub_second
+1 copy_here_sub:0 Programme_start_position copy_here_sub
+
+
+2 sub_first one sub_first
+2 sub_second one sub_second
+2 copy_here_sub one copy_here_sub
+7 sub_first sub_first_here 
+7 sub_second sub_second_here
+7 copy_here_sub copy_here_really_sub
+2 sub_first_here:0 sub_second_here:0 copy_here_really_sub:0
+1 address_of_address four address_of_address
+3 real
+
+lets_jump_if_equal:1 address_of_address one equal_first
+1 address_of_address two equal_second
+1 address_of_address three
+jump_here_equal
+
+1 equal_first:0 Programme_start_position equal_first
+1 equal_second:0 Programme_start_position equal_second 
+1 jump_here_equal:0 Programme_start_position jump_here_equal 
+2 equal_first one check_equal_e1
+2 equal_second one check_equal_e2
+2 jump_here_equal one jump_to_take
+4 check_equal_e1:0 check_equal_e2:0
+now_this
+1 address_of_address four address_of_address
+
+3 real
+now_this:7 jump_to_take address_of_address
+3 real
+
+lets_jump_if_less:1 address_of_address one less_first
+1 address_of_address two less_second
+1 address_of_address three
+jump_here_less
+
+
+1 less_first:0 Programme_start_position less_first
+1 less_second:0 Programme_start_position less_second 
+1 jump_here_less:0 Programme_start_position jump_here_less
+
+2 less_first one check_less_e1
+2 less_second one check_less_e2
+2 jump_here_less one jump_to_take_less
+
+5 check_less_e1:0 check_less_e2:0
+now_this_again
+1 address_of_address four address_of_address
+3 real
+now_this_again:7 jump_to_take_less address_of_address
+3 real
+
+3 6
+2 5 0
+
+7 3 48
+7 3 51
+7 4 52
+7 50 5
+
+5 52 50 53
+1 48 49 49
+
+
+4 51 54 36
+2 51 50 51
+3 22
+
+7 49 48
+2 52 50 52
+7 49 5
+
+3 18
+
+0
+0
+1
+0
+0
+9
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
